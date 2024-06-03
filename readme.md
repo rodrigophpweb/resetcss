@@ -1,12 +1,12 @@
-# Projeto CSS Padrão
+# Standard CSS Project
 
-Este repositório contém um arquivo CSS padrão que pode ser reutilizado em diversos projetos. Ele define alguns estilos básicos e boas práticas que ajudam a manter a consistência e a performance das suas páginas web.
+This repository contains a standard CSS file that can be reused in various projects. It defines some basic styles and best practices that help maintain consistency and performance across your web pages.
 
-## Conteúdo do Arquivo CSS
+## Contents of CSS File
 
-O arquivo CSS incluído no repositório possui os seguintes estilos:
+The included CSS file in the repository contains the following styles:
 
-### Reset Básico
+### Basic Reset
 
 ```css
 * {
@@ -20,14 +20,14 @@ O arquivo CSS incluído no repositório possui os seguintes estilos:
 }
 ```
 
-Este bloco de código aplica um reset básico em todos os elementos (*):
+This block of code applies a basic reset to all elements (*):
 
-* padding: 0; e margin: 0;: Remove os preenchimentos e margens padrão de todos os elementos.
-* border: 0; e outline: none;: Remove bordas e contornos padrão.
-* box-sizing: border-box;: Define o modelo de caixa para incluir preenchimento e borda no tamanho total do elemento, facilitando o controle do layout.
-* -webkit-font-smoothing: antialiased; e -moz-osx-font-smoothing: grayscale;: Melhoram a renderização de fontes em diferentes sistemas operacionais.
+* padding: 0; and margin: 0;: Removes default padding and margins from all elements.
+* border: 0; and outline: none;: Removes default borders and outlines.
+* box-sizing: border-box;: Sets the box model to include padding and border in the element's total width and height, facilitating layout control.
+* -webkit-font-smoothing: antialiased; and -moz-osx-font-smoothing: grayscale;: Improves font rendering across different operating systems.
 
-### The Root
+### Root Definitions
 
 ```css
 :root {
@@ -35,36 +35,40 @@ Este bloco de código aplica um reset básico em todos os elementos (*):
 }
 ```
 
-O seletor :root define variáveis globais para o documento:
+The :root selector defines global variables for the document:
 
-* font-size: 65.5%;: Define o tamanho da fonte base para 10px, facilitando o uso de rems para tamanhos de fonte e espaçamentos.
+* font-size: 65.5%;: Sets the base font size to 10px, making it easier to use rems for font sizes and spacing.
 
-### O Corpo
+### Body Styles
 
 ```css
 body {
     font-size: 1.6rem;
 }
 ```
-O seletor body define estilos básicos para o corpo do documento:
+The body selector defines basic styles for the document body:
 
-* font-size: 1.6rem;: Define o tamanho da fonte para 16px, que é uma escolha comum para garantir legibilidade.
+* font-size: 1.6rem;: Sets the font size to 16px, which is a common choice to ensure readability.
 
-## Como Usar
+## How to Use
 
-Para utilizar este arquivo CSS em seus projetos:
+To use this CSS file in your projects:
 
-1. Clone este repositório ou baixe o arquivo CSS.
-2. Inclua o arquivo CSS no <head> do seu documento HTML:
+1. Clone this repository or download the CSS file.
+2. nclude the CSS file in the <head> of your HTML document:
 
 ```html
-<link rel="stylesheet" href="caminho/para/seu/arquivo.css">
+<link rel="stylesheet" href="path/to/your/file.css">
 ```
 
-## Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+## Contribution
+Contributions are welcome! Feel free to open issues or pull requests.
 
-## Licença
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
 
+## Browser Support
+![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Samsung Internet](https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png)
+--- | --- | --- | --- | --- | --- |
+88+ ✔ | 88+ ✔ | 84+ ✔ | 14+ ✔ | 75+ ✔ | 15+ ✔ |
